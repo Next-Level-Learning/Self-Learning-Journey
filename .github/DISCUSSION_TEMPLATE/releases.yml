@@ -24,11 +24,22 @@ body:
       description: |
         "Provide the relevant deployment details, including links to documentation and workflows." 
       value: |
-        **Related Documentation** 
+        ## Related Documentation 
+        
         [Post/Pre Deployment Steps](/docs/runbooks/release_mm_dd_yyyy)
 
-         **Deployment Workflow**
+         ## Deployment Workflow
+         
         [Release Deployment](https://example.com)
+    validations:
+      required: true
+  - type: textarea
+    id: deployment_url
+    attributes:
+      label: Deployment URL
+      description: "Provide the deployment link. You can use Markdown link syntax."
+      placeholder: "[Release Deployment](https://your-link-here.com)"
+      render: markdown
     validations:
       required: true
   
