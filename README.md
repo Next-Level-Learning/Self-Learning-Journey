@@ -19,8 +19,6 @@ A personal repository documenting my continuous journey to elevate technical and
 - Git & GitHub  
 - Trailhead resources  
 
-https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources
-https://learn.microsoft.com/en-us/training/modules/introduction-to-github/3-components-of-github-flow
 ---
 
 *Learning never stops — every commit is a step forward.* ✨
