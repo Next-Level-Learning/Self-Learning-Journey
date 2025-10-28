@@ -1,11 +1,11 @@
 title: "Release_dd_mm_yyyy"
-labels: ["Project Releases"]
+# labels: ["Project Releases"]
 body:
   - type: markdown
     attributes:
       value: |
         **Welcome to the Release Discussion!**
-        Please fill out the details below
+        "Please fill out the details below"
   - type: textarea
     id: deployment_url
     attributes:
