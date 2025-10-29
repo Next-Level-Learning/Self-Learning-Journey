@@ -5,7 +5,7 @@ assignees:
   - olusogoogunleye
 labels: [code-optimization]
 body:
-  - type: input
+  - type: textarea
     id: optimization_summary
     attributes:
       label: Summary
@@ -37,7 +37,7 @@ body:
     id: duplicate_check
     attributes:
       label: Confirmation
-      description: Confirm you have verified that this optimization request does not already exist.
+      description: Confirm you have verified that this optimization request does not already exist. Duplicate issues will result in further delays during triage and processing.
       options:
         - label: "I have searched existing issues and did not find a duplicate."
           required: true
