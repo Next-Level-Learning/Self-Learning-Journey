@@ -5,7 +5,7 @@ labels: ["other-requests"]
 body:
   - type: dropdown
     id: request_type
-    attributes: 
+    attributes:
       label: Request Type/Category
       description: Select the type of request. You may select multiple, if applicable.
       multiple: true
@@ -17,13 +17,13 @@ body:
         - Other
     validations:
       required: true
-      
+
   - type: textarea
     id: background_info
     attributes:
       label: Background/Context
       description: Provide relevant background information or context for the request.
-      placeholder: "Example: The marketing team needs the data to generate monthly reports.”
+      placeholder: "Example: The marketing team needs the data to generate monthly reports."
     validations:
       required: true
 
@@ -32,7 +32,7 @@ body:
     attributes:
       label: Urgency/Priority
       description: How urgent or critical is this request?
-      options: 
+      options:
         - Critical
         - High
         - Medium
@@ -55,5 +55,3 @@ body:
       label: Additional Information
       description: Provide any extra details, links or screenshots to help understand the request
       placeholder: "Example: Link to relevant documentation or attach supporting files."
-  
-      
