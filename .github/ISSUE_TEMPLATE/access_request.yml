@@ -43,7 +43,7 @@ body:
       label: Manager Approval
       description: |
         Has your manager approved this access request?
-        If you selected “Yes,” please attach proof of approval in the next field.
+        If you selected “Yes,” please attach proof of approval.
       options:
         - "Yes"
         - "No"
@@ -53,5 +53,5 @@ body:
     id: approval_proof
     attributes:
       label: Proof of Approval
-      description: If your manager approved, paste relevant image or a link to the approval document
+      # description: If your manager approved, paste relevant image or a link to the approval document
       placeholder: "Example: https://company.sharepoint.com/approvals/manager_approval.pdf"
