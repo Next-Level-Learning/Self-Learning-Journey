@@ -1,0 +1,52 @@
+name: Access Request
+description: Request access to an environment
+title: "Access Request for {Name of User}"
+labels: ["access-request"]
+body:
+  - type: dropdown
+    id: submitter_check
+    attributes:
+      label: Submitter
+      description: Confirm who is submitting the access request.
+      options:
+        - Myself
+        - On behalf of another user
+    validations:
+      required: true
+  - type: input
+    id: access_type
+    attributes:
+      label: Access Type
+      description: What type of access are you requesting?
+      placeholder: "Example: Access to the Production environment"
+    validations:
+      required: true
+  - type: input
+    id: access_duration
+    attributes:
+      label: Duration of Access
+      description: How long do you require the access?
+      placeholder: "Example: 2 weeks"
+    validations:
+      required: true
+
+  - type: textarea
+    id: access_justification
+    attributes:
+      label: Justification of Access
+      description: Provide details of why you require this access.
+      placeholder: "Example: I have just joined the IT team and need access to complete assigned tasks in the environment."
+      render: markdown
+    validations:
+      required: true
+
+  - type: dropdown
+    id: manager_approval
+    attributes:
+      label: Manager Approval
+      description: Has your manager approved this access request?
+      options:
+        - Yes, proceed to attach proof
+        - No
+    validations:
+      required: true
