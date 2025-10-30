@@ -15,7 +15,9 @@ body:
         - Documentation Update
         - Security vulnerability
         - Other
-
+    validations:
+      required: true
+      
   - type: textarea
     id: background_info
     attributes:
