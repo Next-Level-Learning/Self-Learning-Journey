@@ -1,13 +1,13 @@
 name: Access Request
-description: Request access to an environment
-title: "Access Request for {Name of User}"
+description: Request access to an environment or system
+title: "Access Request for {Full Name of the User} - {Department}"
 labels: ["access-request"]
 body:
   - type: dropdown
     id: submitter_check
     attributes:
-      label: Submitter
-      description: Confirm who is submitting the access request.
+      label: Are you submitting this access request for yourself?
+      description: Indicate whether this access request is being submitted for yourself or on behalf of another user.
       options:
         - Myself
         - On behalf of another user
@@ -17,7 +17,7 @@ body:
     id: access_type
     attributes:
       label: Access Type
-      description: What type of access are you requesting?
+      description: Specify the type of access being requested.
       placeholder: "Example: Access to the Production environment"
     validations:
       required: true
@@ -25,7 +25,7 @@ body:
     id: access_duration
     attributes:
       label: Duration of Access
-      description: How long do you require the access?
+      description: Indicate the required duration of access.
       placeholder: "Example: 2 weeks"
     validations:
       required: true
@@ -33,17 +33,17 @@ body:
     id: access_justification
     attributes:
       label: Justification of Access
-      description: Provide details of why you require this access.
-      placeholder: "Example: I have just joined the IT team and need access to complete assigned tasks in the environment."
+      description: Provide the justification for requesting this access.
+      placeholder: "Example: The user just joined the IT team and need access to complete assigned tasks in the environment."
     validations:
       required: true
   - type: dropdown
     id: manager_approval
     attributes:
-      label: Manager Approval
+      label: Manager Approved?
       description: |
-        Has your manager approved this access request?
-        If you selected “Yes,” please attach proof of approval.
+        Has the relevant manager granted approval for this access request?
+        If “Yes,” please attach proof of approval.
       options:
         - "Yes"
         - "No"
@@ -53,5 +53,5 @@ body:
     id: approval_proof
     attributes:
       label: Proof of Approval
-      # description: If your manager approved, paste relevant image or a link to the approval document
+      description: Attach a copy of the approval document or provide a link to the approval.
       placeholder: "Example: https://company.sharepoint.com/approvals/manager_approval.pdf"
