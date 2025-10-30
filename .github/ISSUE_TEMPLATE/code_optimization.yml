@@ -14,6 +14,7 @@ body:
         Example: Improve the SOQL query efficiency in AccountDataService to reduce governor limit usage.
     validations:
       required: true
+
   - type: textarea
     id: current_implementation
     attributes:
@@ -22,6 +23,7 @@ body:
       placeholder: "Example: Multiple redundant queries are being made for each record in a loop."
     validations:
       required: true
+
   - type: textarea
     id: expected_outcome
     attributes:
@@ -30,6 +32,7 @@ body:
       placeholder: "Example: Reduce CPU time by 30% and ensure the process handles up to 10,000 records without errors."
     validations:
       required: true
+
   - type: dropdown
     id: priority
     attributes:
@@ -42,6 +45,7 @@ body:
         - Low
     validations:
       required: true
+
   - type: input
     id: completion_date
     attributes:
@@ -50,6 +54,7 @@ body:
       placeholder: "mm-dd-yyyy"
     validations:
       required: true
+      
   - type: checkboxes
     id: duplicate_check
     attributes:

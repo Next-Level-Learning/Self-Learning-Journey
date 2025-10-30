@@ -13,6 +13,7 @@ body:
         - On behalf of another user
     validations:
       required: true
+
   - type: input
     id: access_type
     attributes:
@@ -21,6 +22,7 @@ body:
       placeholder: "Example: Access to the Production environment"
     validations:
       required: true
+
   - type: input
     id: access_duration
     attributes:
@@ -29,6 +31,7 @@ body:
       placeholder: "Example: 2 weeks"
     validations:
       required: true
+
   - type: textarea
     id: access_justification
     attributes:
@@ -37,6 +40,7 @@ body:
       placeholder: "Example: The user just joined the IT team and need access to complete assigned tasks in the environment."
     validations:
       required: true
+
   - type: dropdown
     id: manager_approval
     attributes:
@@ -49,6 +53,7 @@ body:
         - "No"
     validations:
       required: true
+      
   - type: textarea
     id: approval_proof
     attributes:
