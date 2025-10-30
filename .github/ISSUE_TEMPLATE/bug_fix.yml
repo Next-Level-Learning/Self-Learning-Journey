@@ -77,6 +77,7 @@ body:
       required: true
 
   - type: textarea
+    id: additional_info
     attributes:
       label: Additional Information
       description: Include any extra context that could help investigate and resolve the issue
