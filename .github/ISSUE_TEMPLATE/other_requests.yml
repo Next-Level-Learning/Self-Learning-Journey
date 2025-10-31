@@ -1,7 +1,7 @@
 name: Other Requests
 description: Use this template to submit requests that do not fall under Bug Reports, Access Requests, or Code Optimization.
-title: "Request: {Brief Description}"
-labels: ["other-requests"]
+title: 'Request: {Brief Description}'
+labels: ['other-requests']
 body:
   - type: dropdown
     id: request_type
@@ -23,7 +23,7 @@ body:
     attributes:
       label: Background/Context
       description: Provide relevant background information or context for the request.
-      placeholder: "Example: The marketing team needs the data to generate monthly reports."
+      placeholder: 'Example: The marketing team needs the data to generate monthly reports.'
     validations:
       required: true
 
@@ -45,7 +45,7 @@ body:
     attributes:
       label: Expected Outcome/Deliverables
       description: Describe the expected outcome or deliverables for this request
-      placeholder: "Example: Persona records and all assigned users should be provided in a report with documentation of their permissions."
+      placeholder: 'Example: Persona records and all assigned users should be provided in a report with documentation of their permissions.'
     validations:
       required: true
 
@@ -54,4 +54,4 @@ body:
     attributes:
       label: Additional Information
       description: Provide any extra details, links or screenshots to help understand the request
-      placeholder: "Example: Link to relevant documentation or attach supporting files."
+      placeholder: 'Example: Link to relevant documentation or attach supporting files.'

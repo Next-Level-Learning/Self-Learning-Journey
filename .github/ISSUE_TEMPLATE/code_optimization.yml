@@ -1,15 +1,15 @@
 name: Code Optimization Request
 description: Request to Optimize existing code
-title: "Optimize {Component/Class Name}"
+title: 'Optimize {Component/Class Name}'
 assignees:
   - olusogoogunleye
-labels: ["code-optimization"]
+labels: ['code-optimization']
 body:
   - type: input
     id: optimization_goal
     attributes:
       label: Optimization Goal
-      description: "Briefly describe the goal of this optimization."
+      description: 'Briefly describe the goal of this optimization.'
       placeholder: |
         Example: Improve the SOQL query efficiency in AccountDataService to reduce governor limit usage.
     validations:
@@ -19,8 +19,8 @@ body:
     id: current_implementation
     attributes:
       label: Current Implementation/Issue
-      description: "Describe the current behavior and specific problems that you have identified"
-      placeholder: "Example: Multiple redundant queries are being made for each record in a loop."
+      description: 'Describe the current behavior and specific problems that you have identified'
+      placeholder: 'Example: Multiple redundant queries are being made for each record in a loop.'
     validations:
       required: true
 
@@ -28,8 +28,8 @@ body:
     id: expected_outcome
     attributes:
       label: Expected Outcome
-      description: "Specify the measurable improvements or results expected from this optimization."
-      placeholder: "Example: Reduce CPU time by 30% and ensure the process handles up to 10,000 records without errors."
+      description: 'Specify the measurable improvements or results expected from this optimization.'
+      placeholder: 'Example: Reduce CPU time by 30% and ensure the process handles up to 10,000 records without errors.'
     validations:
       required: true
 
@@ -50,16 +50,16 @@ body:
     id: completion_date
     attributes:
       label: Expected Completion Date
-      description: "Specify expected available time"
-      placeholder: "mm-dd-yyyy"
+      description: 'Specify expected available time'
+      placeholder: 'mm-dd-yyyy'
     validations:
       required: true
-      
+
   - type: checkboxes
     id: duplicate_check
     attributes:
       label: Confirmation
       description: Confirm you have verified that this optimization request does not already exist. Duplicate issues will result in further delays during triage and processing.
       options:
-        - label: "I have searched existing issues and did not find a duplicate."
+        - label: 'I have searched existing issues and did not find a duplicate.'
           required: true

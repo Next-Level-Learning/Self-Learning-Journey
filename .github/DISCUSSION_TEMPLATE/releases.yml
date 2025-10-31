@@ -1,11 +1,11 @@
-title: "Release mm-dd-yyyy"
-labels: ["Project Releases"]
+title: 'Release mm-dd-yyyy'
+labels: ['Project Releases']
 body:
   - type: markdown
     attributes:
       value: |
         ## Release Discussion
-      
+
         **Welcome to the official Discussion thread for this Release!**
   - type: dropdown
     attributes:
@@ -14,7 +14,7 @@ body:
       options:
         - Major Release
         - Minor Release
-        - Hotfix 
+        - Hotfix
     validations:
       required: true
   - type: textarea
@@ -22,10 +22,10 @@ body:
     attributes:
       label: Deployment Information
       description: |
-        "Provide the relevant deployment details, including links to documentation and workflows." 
+        "Provide the relevant deployment details, including links to documentation and workflows."
       value: |
         ## Related Documentation 
-        
+
         [Post/Pre Deployment Steps](/docs/runbooks/release_mm_dd_yyyy)
 
         ## Deployment Workflow
@@ -33,4 +33,3 @@ body:
         [Release Deployment](https://example.com)
     validations:
       required: true
-  

@@ -1,0 +1,13 @@
+# This file contains a list of files or directories that Prettier should ignore when formatting code. Any paths listed here will not be processed by Prettier.
+# For more information about prettier, visit https://prettier.io/docs
+
+# Ignore dependencies and editor settings
+node_modules/
+.vscode/
+
+# Ignore log and build files
+*.log
+dist/
+
+# Ignore specific Salesforce folders you don’t want formatted
+*.component

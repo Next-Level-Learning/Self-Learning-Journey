@@ -1,0 +1,24 @@
+# This file specifies intentionally untracked files that Git should ignore. 
+# This helps keep the repository clean by preventing files from being committed to the repository. 
+# For more information on .gitignore, visit: https://git-scm.com/docs/gitignore
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# Build/dist directories
+dist/
+build/
+
+# VS Code settings
+.vscode/
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Prettier cache (if any)
+.prettiercache
