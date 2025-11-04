@@ -1,8 +1,8 @@
-## Resolves
+## 🔗 Resolves
 
 - [ ] [Test-xxx](https://your-jira-instance.atlassian.net/browse/Test-xxx)
 
-## Type of Change
+## 🛠️ Type of Change
 
 Select all that apply
 
@@ -13,7 +13,7 @@ Select all that apply
 - [ ] Test improvement
 - [ ] Configuration / Deployment
 
-## Description
+## 📝 Description
 
 Provide a concise explanation of what this pull request does and why.
 
@@ -21,7 +21,7 @@ Provide a concise explanation of what this pull request does and why.
 <!-- Any details that you think are important to review this PR? -->
 <!-- Are there other PRs related to this one? -->
 
-## Testing Details
+## 🧪 Testing Details
 
 Explain how the changes were tested and validated.
 
@@ -30,7 +30,7 @@ Explain how the changes were tested and validated.
   - [ ] Prod
   - [ ] Other Sandboxes - <!-- Specify the sandbox -->
 
-- Test Cases Executed:
+- Test Executed:
   - [ ] Unit tests
   - [ ] Manual UI validation
   - [ ] Integration tests
@@ -38,9 +38,9 @@ Explain how the changes were tested and validated.
 
 - Results summary:
 
- <!-- Provide summary of the test result -->
+ <!-- Provide summary of the test result-->
 
-## Checklist
+## ✅ Checklist
 
 Before submitting, confirm you have:
 
@@ -49,6 +49,6 @@ Before submitting, confirm you have:
 - [ ] Provided clear commit messages
 - [ ] Linked the Jira ticket
 
-## Additional Notes
+## 💡Additional Notes
 
 Add any extra context or remarks for the reviewers.
