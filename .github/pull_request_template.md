@@ -1,4 +1,4 @@
-# Pull Request - [Jira Story]: [Summary]
+title: Pull Request - [Jira Story]: [Summary]
 
 > **Tip:** Replace the title above with your Jira Story and brief summary
 
