@@ -27,9 +27,9 @@ Select all that apply
 
 Provide a coincise explanation of what this pull request does and why.
 
--
--
-- ***
+<!-- Please include a summary of the change -->
+<!-- Any details that you think are important to review this PR? -->
+<!-- Are there other PRs related to this one? -->
 
 ## Testing Details
 
@@ -40,6 +40,7 @@ Explain how the changes were tested and validated.
   - [ ] Unit tests
   - [ ] Manual UI validation
   - [ ] Integration tests
+  - [ ] NA
 - ## Results summary:
 
 ---
@@ -50,9 +51,10 @@ Before submitting, confirm you have:
 
 - [ ] Followed the project’s code and commit conventions
 - [ ] Added/updated tests (where applicable)
-- [ ] Updated documentation or comments
-- [ ] Ensured the branch merges cleanly without conflicts
-- [ ] Verified Jira status and linked issue correctly
+- [ ] Provided clear commit messages
+- [ ] Linked the Jira ticket
+
+---
 
 ## Additional Notes
 
