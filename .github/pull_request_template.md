@@ -1,14 +1,6 @@
-title: Pull Request - [Jira Story]: [Summary]
-
-> **Tip:** Replace the title above with your Jira Story and brief summary
-
----
-
 ## Resolves
 
 - [ ] [Test-xxx](https://your-jira-instance.atlassian.net/browse/Test-xxx)
-
----
 
 ## Type of Change
 
@@ -20,8 +12,6 @@ Select all that apply
 - [ ] Documentation update
 - [ ] Test improvement
 - [ ] Configuration / Deployment
-
----
 
 ## Description
 
@@ -41,9 +31,8 @@ Explain how the changes were tested and validated.
   - [ ] Manual UI validation
   - [ ] Integration tests
   - [ ] NA
-- ## Results summary:
 
----
+- Results summary:
 
 ## Checklist
 
@@ -53,8 +42,6 @@ Before submitting, confirm you have:
 - [ ] Added/updated tests (where applicable)
 - [ ] Provided clear commit messages
 - [ ] Linked the Jira ticket
-
----
 
 ## Additional Notes
 
