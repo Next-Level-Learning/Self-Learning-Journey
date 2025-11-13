@@ -1,4 +1,4 @@
-Thank you for helping me make this repository safe for everyone to use.
+Thank you for contributing to make this repository safe for everyone.
 
 ---
 
