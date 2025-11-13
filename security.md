@@ -2,7 +2,7 @@
 
 ## 🔒 Purpose
 
-## This repository is part of a self-learning DevOps environment created to simulate real-world software development and CI/CD practices.
+This repository is part of a self-learning DevOps environment created to simulate real-world software development and CI/CD practices.
 
 ## 🧩 Supported Versions
 
