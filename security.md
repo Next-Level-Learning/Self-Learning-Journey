@@ -63,7 +63,7 @@ When creating or modifying workflows:
 
 ---
 
-## ![alt text](image-1.png) Policy Enforcement
+## 📝 Policy Enforcement
 
 Non-compliance may result in:
 
