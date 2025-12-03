@@ -46,7 +46,7 @@ body:
     attributes:
       label: Manager Approved?
       description: |
-        ### Has the relevant manager granted approval for this access request? If “Yes,” please attach proof of approval.
+        Has the relevant manager granted approval for this access request? If “Yes,” please attach proof of approval.
       options:
         - 'Yes'
         - 'No'
