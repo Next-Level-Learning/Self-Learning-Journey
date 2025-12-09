@@ -1,6 +1,5 @@
 Thank you for contributing to make this repository safe for everyone.
 
----
 
 # Security Policy
 
