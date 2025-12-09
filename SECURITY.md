@@ -1,7 +1,7 @@
 # Security Policy
 
 Thank you for contributing to making this repository safe for everyone. This document outlines security practices, reporting procedures, and enforcement guidelines for contributors and maintainers.
-
+---
 ## 🔒 Purpose
 
 This policy outlines how security is managed across this repository. It ensures that all source code, configurations, and workflows are protected from unauthorized access, data leakage, or malicious actions.
