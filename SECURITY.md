@@ -20,7 +20,7 @@ If you discover a security vulnerability within the repository:
 
 Our security team will investigate promptly, apply necessary patches and notify the relevant personnels.
 
-## 🧠 Best Practices
+## 🧠 Best Practices for Contributors
 
 All contributors must follow these practices:
 
