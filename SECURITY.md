@@ -64,6 +64,7 @@ Non-compliance may result in:
 - Removal from the organization or team.
 - Reporting to management or legal as necessary.
 
+
 ## 📘 Additional Resources
 
 - [GitHub Security Policy Documentation](https://docs.github.com/en/code-security/getting-started/adding-a-security-policy-to-your-repository)
