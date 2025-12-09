@@ -1,5 +1,7 @@
 # Security Policy
 
+---
+
 Thank you for contributing to making this repository safe for everyone. This document outlines security practices, reporting procedures, and enforcement guidelines for contributors and maintainers.
 ---
 ## 🔒 Purpose
@@ -61,7 +63,6 @@ Non-compliance may result in:
 - Immediate suspension of **Github** access.
 - Removal from the organization or team.
 - Reporting to management or legal as necessary.
-
 
 ## 📘 Additional Resources
 
