@@ -1,7 +1,6 @@
-Thank you for contributing to make this repository safe for everyone.
-
----
 # Security Policy
+
+Thank you for contributing to making this repository safe for everyone. This document outlines security practices, reporting procedures, and enforcement guidelines for contributors and maintainers.
 
 ## 🔒 Purpose
 
