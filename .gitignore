@@ -13,7 +13,11 @@ dist/
 build/
 
 # VS Code settings
-.vscode/
+.vscode/*
+
+!settings.json
+!extensions.json
+
 
 # Local environment files
 .env

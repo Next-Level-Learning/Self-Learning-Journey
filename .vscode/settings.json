@@ -1,0 +1,13 @@
+{
+  "files.autoSave": "afterDelay",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.configPath": ".prettierrc",
+  "prettier.ignorePath": ".prettierignore",
+
+  "files.eol": "\n",
+  "salesforcedx-vscode-core.retrieve-test-code-coverage": true,
+  "xml.format.maxLineWidth": 0,
+  "terminal.integrated.defaultProfile.windows": "Git Bash"
+}

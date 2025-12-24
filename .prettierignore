@@ -3,7 +3,6 @@
 
 # Ignore dependencies and editor settings
 node_modules/
-.vscode/
 
 # Ignore log and build files
 *.log
