@@ -1,0 +1,7 @@
+{
+  "packageDirectories": [{ "path": "src\temp", "default": true }],
+  "name": "Self Learning Journey - Salesforce",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "63.0"
+}
