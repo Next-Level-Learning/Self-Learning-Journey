@@ -32,3 +32,4 @@ build/
 .sf
 .sfdx
 src/temp/*
+!src/temp/Readme.md

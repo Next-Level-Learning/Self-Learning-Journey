@@ -1,0 +1,1 @@
+The src/temp folder is the default catch-all folder for metadata retrieved from scratch orgs or developer environments. It is intended as a temporary landing zone for new or experimental metadata before it is organized into proper project packages.
