@@ -1,5 +1,15 @@
 {
-  "packageDirectories": [{ "path": "src\temp", "default": true }],
+  "packageDirectories": [
+    {
+      "path": "./src/temp",
+      "default": true,
+      "ignoreOnStage": ["build", "quickbuild", "prepare", "validate"]
+    },
+    {
+      "path": "./src/main/frameworks",
+      "default": false
+    }
+  ],
   "name": "Self Learning Journey - Salesforce",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",

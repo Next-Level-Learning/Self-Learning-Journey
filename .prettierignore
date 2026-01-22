@@ -6,6 +6,9 @@ node_modules/
 
 # Ignore log and build files
 *.log
+.sf
+.sfdx
+src/temp/*
 dist/
 
 # Ignore specific Salesforce folders you don’t want formatted

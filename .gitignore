@@ -26,3 +26,9 @@ build/
 
 # Prettier cache (if any)
 .prettiercache
+
+# Salesforce cache
+
+.sf
+.sfdx
+src/temp/*
