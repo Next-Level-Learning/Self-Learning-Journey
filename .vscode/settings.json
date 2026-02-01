@@ -10,5 +10,5 @@
   "salesforcedx-vscode-core.retrieve-test-code-coverage": true,
   "xml.format.maxLineWidth": 0,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "xml.preferences.showSchemaDocumentationType": "all"
+  "xml.preferences.showSchemaDocumentationType": "none"
 }

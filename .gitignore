@@ -31,5 +31,6 @@ build/
 
 .sf
 .sfdx
+.sfpowerscripts
 src/temp/*
 !src/temp/Readme.md

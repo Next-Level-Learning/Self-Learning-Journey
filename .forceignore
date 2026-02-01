@@ -1,0 +1,11 @@
+# Ignore local scratch org files
+.sfdx/
+
+# Ignore node modules
+node_modules/
+
+# Ignore local config
+*.local
+
+# Ignore temporary files
+*.tmp

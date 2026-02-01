@@ -6,8 +6,18 @@
       "ignoreOnStage": ["build", "quickbuild", "prepare", "validate"]
     },
     {
-      "path": "./src/main/frameworks",
-      "default": false
+      "path": "./src/main/frameworks/shared-resources",
+      "package": "shared-resources",
+      "versionName": "Shared Resources",
+      "versionDescription": "Shared resources package created for self-learning purposes, housing reusable components and metadata leveraged across multiple packages within a modular Salesforce architecture.",
+      "versionNumber": "1.0.0.NEXT"
+    },
+    {
+      "path": "./src/main/self-learning",
+      "package": "self-learning",
+      "versionName": "Self Learning",
+      "versionDescription": "Self-learning package for experimenting with Salesforce CI/CD, validations, and automated deployments.",
+      "versionNumber": "1.0.0.NEXT"
     }
   ],
   "name": "Self Learning Journey - Salesforce",

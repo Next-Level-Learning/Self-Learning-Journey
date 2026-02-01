@@ -1,0 +1,11 @@
+release: Self Learning Release
+skipIfAlreadyInstalled: true
+artifacts:
+  shared-resources: LATEST_TAG
+  self-learning: LATEST_TAG
+promotePackagesBeforeDeploymentToOrg: Learning
+changelog:
+  workItemFilters:
+    - (SFL|TEST)-[0-9]{3,4}
+  workItemUrl: https://shogoselflearning.atlassian.net/browse
+  limit: 30
