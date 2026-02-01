@@ -34,3 +34,4 @@ build/
 .sfpowerscripts
 src/temp/*
 !src/temp/Readme.md
+.artifacts
