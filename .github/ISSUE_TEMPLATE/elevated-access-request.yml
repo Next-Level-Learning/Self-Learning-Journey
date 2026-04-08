@@ -10,3 +10,12 @@ body:
         ## This process has changed
         Elevated access requests are **no longer handled through GitHub Issues**.
         Please visit the updated process documentation on Confluence:
+
+  - type: input
+    id: acknowledge
+    attributes:
+      label: Acknowledge
+      description: Type "I understand" to confirm you read this
+      placeholder: I understand
+    validations:
+      required: true
