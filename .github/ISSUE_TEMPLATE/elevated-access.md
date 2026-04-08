@@ -1,1 +1,12 @@
-
+name: Request Elevated Access
+description: This process has changed. Elevated access requests are now handled via GSD.
+title: Elevated Access - Process Changed
+labels: ['elevated access']
+body: 
+  - type: markdown
+    id: notice
+    attributes:
+      value: |
+        ## This process has changed
+        Elevated access requests are **no longer handled through GitHub Issues**.
+        Please visit the updated process documentation on Confluence:
