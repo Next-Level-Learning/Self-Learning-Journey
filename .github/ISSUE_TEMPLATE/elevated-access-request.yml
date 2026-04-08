@@ -11,11 +11,12 @@ body:
         Elevated access requests are **no longer handled through GitHub Issues**.
         Please visit the updated process documentation on Confluence:
 
-  - type: input
-    id: acknowledge
+  - type: textarea
+    id: what-happened
     attributes:
-      label: Acknowledge
-      description: Type "I understand" to confirm you read this
-      placeholder: I understand
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
     validations:
       required: true
